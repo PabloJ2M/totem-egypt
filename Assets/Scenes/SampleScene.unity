@@ -2265,6 +2265,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1260338712}
     m_Modifications:
+    - target: {fileID: 608305793260459678, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401145692041623371, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
+      propertyPath: m_Name
+      value: Column_04
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401145692041623371, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401145692041623371, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1745723446991908337, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
       propertyPath: m_RootOrder
       value: 725
@@ -2320,22 +2336,6 @@ PrefabInstance:
     - target: {fileID: 1745723446991908337, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1401145692041623371, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
-      propertyPath: m_Name
-      value: Column_04
-      objectReference: {fileID: 0}
-    - target: {fileID: 1401145692041623371, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1401145692041623371, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 608305793260459678, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3177,6 +3177,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1260338712}
     m_Modifications:
+    - target: {fileID: 608305793260459678, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401145692041623371, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
+      propertyPath: m_Name
+      value: Column_04 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401145692041623371, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401145692041623371, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1745723446991908337, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
       propertyPath: m_RootOrder
       value: 730
@@ -3232,22 +3248,6 @@ PrefabInstance:
     - target: {fileID: 1745723446991908337, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1401145692041623371, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
-      propertyPath: m_Name
-      value: Column_04 (21)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1401145692041623371, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1401145692041623371, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 608305793260459678, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8181,6 +8181,73 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4392636225601048249, guid: bab6ccec8ff39ee4ea9176f9b45f2cac, type: 3}
   m_PrefabInstance: {fileID: 573449937}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &573557147
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 573557148}
+  - component: {fileID: 573557149}
+  m_Layer: 0
+  m_Name: RenderWebcam
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &573557148
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 573557147}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &573557149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 573557147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25b3a77349cff375b9ee56dbef1b4a92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WebcamRenderer
+  deviceName: 
+  requestedWidth: 1280
+  requestedHeight: 720
+  requestedFps: 30
+  outputSize: 512
+  mirrorHorizontally: 0
+  zoom: 0
+  minCropPixels: 128
+  onTextureReady:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2100000, guid: b452034fc39a89287b4bfeb0c2daae1d, type: 2}
+        m_TargetAssemblyTypeName: UnityEngine.Material, UnityEngine
+        m_MethodName: set_mainTexture
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &575500389
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15991,6 +16058,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1260338712}
     m_Modifications:
+    - target: {fileID: 608305793260459678, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401145692041623371, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
+      propertyPath: m_Name
+      value: Column_04 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401145692041623371, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401145692041623371, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1745723446991908337, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
       propertyPath: m_RootOrder
       value: 728
@@ -16046,22 +16129,6 @@ PrefabInstance:
     - target: {fileID: 1745723446991908337, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1401145692041623371, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
-      propertyPath: m_Name
-      value: Column_04 (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1401145692041623371, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1401145692041623371, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 608305793260459678, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16447,6 +16514,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1260338712}
     m_Modifications:
+    - target: {fileID: 608305793260459678, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401145692041623371, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
+      propertyPath: m_Name
+      value: Column_04 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401145692041623371, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401145692041623371, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1745723446991908337, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
       propertyPath: m_RootOrder
       value: 729
@@ -16502,22 +16585,6 @@ PrefabInstance:
     - target: {fileID: 1745723446991908337, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1401145692041623371, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
-      propertyPath: m_Name
-      value: Column_04 (20)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1401145692041623371, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1401145692041623371, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 608305793260459678, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22835,6 +22902,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1260338712}
     m_Modifications:
+    - target: {fileID: 608305793260459678, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401145692041623371, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
+      propertyPath: m_Name
+      value: Column_04 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401145692041623371, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401145692041623371, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1745723446991908337, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
       propertyPath: m_RootOrder
       value: 727
@@ -22890,22 +22973,6 @@ PrefabInstance:
     - target: {fileID: 1745723446991908337, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1401145692041623371, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
-      propertyPath: m_Name
-      value: Column_04 (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1401145692041623371, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1401145692041623371, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 608305793260459678, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -29730,6 +29797,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1260338712}
     m_Modifications:
+    - target: {fileID: 608305793260459678, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
+      propertyPath: m_ScaleInLightmap
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401145692041623371, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
+      propertyPath: m_Name
+      value: Column_04 (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401145692041623371, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401145692041623371, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1745723446991908337, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
       propertyPath: m_RootOrder
       value: 731
@@ -29785,22 +29868,6 @@ PrefabInstance:
     - target: {fileID: 1745723446991908337, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1401145692041623371, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
-      propertyPath: m_Name
-      value: Column_04 (22)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1401145692041623371, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1401145692041623371, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    - target: {fileID: 608305793260459678, guid: 8200332ca90a50447b55a1334685bc29, type: 3}
-      propertyPath: m_ScaleInLightmap
-      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -30600,3 +30667,4 @@ SceneRoots:
   - {fileID: 4303331128649635805}
   - {fileID: 586566726}
   - {fileID: 1260338712}
+  - {fileID: 573557148}
